@@ -1,0 +1,39 @@
+{
+    "name": "post-planning-guru-api",
+    "version": "1.0.0",
+    "description": "appsync typescript template",
+    "main": "serverless.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sls": "sls"
+    },
+    "engines": {
+        "node": ">=14.15.0"
+    },
+    "dependencies": {
+        "@middy/core": "^1.5.2",
+        "@middy/http-json-body-parser": "^1.5.2",
+        "source-map-support": "^0.5.19",
+        "yup": "^0.32.9"
+    },
+    "devDependencies": {
+        "@serverless/typescript": "^3.38.0",
+        "@types/aws-lambda": "^8.10.130",
+        "@types/jest": "^29.5.11",
+        "@types/node": "^20.10.3",
+        "aws-sdk": "^2.1513.0",
+        "jest": "^29.7.0",
+        "json-schema-to-ts": "^2.9.2",
+        "serverless": "^3.38.0",
+        "serverless-appsync-plugin": "^2.5.2",
+        "serverless-better-credentials": "^2.0.0",
+        "serverless-dynamodb-local": "^0.2.40",
+        "serverless-iam-roles-per-function": "^3.1.0",
+        "serverless-offline": "^13.3.0",
+        "ts-node": "^10.9.1",
+        "tsconfig-paths": "^4.2.0",
+        "typescript": "^5.3.3"
+    },
+    "author": "Daniel Marzan",
+    "license": "MIT"
+}
